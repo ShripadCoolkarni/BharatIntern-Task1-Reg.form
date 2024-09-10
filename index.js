@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 const app = express();
 dotenv.config();
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
